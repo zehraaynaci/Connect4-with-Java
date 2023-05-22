@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Applications/**/*.jar",
+        "/Users/zehragokceaynaci/Desktop/Connect4/Connect_Four/**/*.jar",
+        "/Users/zehragokceaynaci/anaconda3/pkgs/libprotobuf-3.20.3-hfff2838_0/include/google/protobuf/compiler/java/**/*.jar"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx128G -Xms100m -Xlog:disable",
+    "java.completion.filteredTypes": [
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ]
+}
